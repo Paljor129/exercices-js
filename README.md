@@ -26,11 +26,16 @@
 </ul>
 
 <p>Exercice 3:</p>
+// Ajout d'un fichier audio
 <ul>
 <li><p>Ajout d'un fichier audio lors de l'évènement clique du bouton</p></li>
 <li><p>Ajouter une condition dans la fonction thug(), lors du clique , activer le .mp3 sinon on le met sur pause</li></p>
+</ul>
 
 <p>Exercice 4:</p>
+
+// Animation sur un message
+
 <ul>
 <li><p>Ajout d'une animation sur le message lors de l'évènement clique du bouton (css)</p></li>
 </ul>
