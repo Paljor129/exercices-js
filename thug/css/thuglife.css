@@ -1,0 +1,48 @@
+#area {
+  width:250px;
+  margin:auto;
+  text-align:center;
+}
+
+#logo {
+  width:250px;
+  height:250px;
+  position:relative;
+  top:125px;
+}
+
+button {
+  position:relative;
+  top:150px;
+}
+
+#lunettes {
+  width:250px;
+  position:relative;
+  left:-25px;
+  animation:lunettesDown 3s linear forwards paused;
+  z-index:5;
+}
+
+#message {
+  text-align:center;
+  color:grey;
+  font-size:28px;
+  position:relative;
+  top:175px;
+  animation: message 1s linear infinite;
+}
+
+
+@keyframes message {
+ 50% { opacity: 0; }
+}
+
+@keyframes lunettesDown {
+  0% {
+    top:-90px;
+  }
+  100% {
+    top:215px;
+  }
+}
