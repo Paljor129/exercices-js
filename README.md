@@ -12,7 +12,7 @@
 <li><p>Ajouter un bouton "Clique pour devenir un thug"</p></li>
 <li><p>Avec la balise link , lier un fichier css thuglife.css à votre html</p></li>
 <li><p>Avec la balise script, lier un fichier thuglife.js à votre html</p></li>
-<li><p>Dans votre fichier js, garder dans des var les id "lunettes" et "messages" avec la méthode document.getElementById()</p></li>
+<li><p>Dans votre fichier js, garder l'id "message" dans une var avec la méthode document.getElementById()</p></li>
 <li><p>Créer une fonction thug() qui affichera au click du bouton "Clique pour devenir un thug" un message prédéfinit</p></li>
 </ul>
 
@@ -21,7 +21,8 @@
 // Animer une image (lunettes)
 
 <ul>
-<li><p>Dans votre div "area", insérer une image avec des lunettes, (Source image=) avant l'image du logo</p></li>
+<li><p>Dans votre div "area", insérer une image avec des lunettes, (Source image=) avant l'image du logo avec un id "lunettes"</p></li>
+<li><p>Dans votre js, garder l'id "lunettes" dans une var avec la méthode document.getElementById()</p></li>
 <li><p>Animation d'une image avec css (Animation et keyframes), animer l'image sur la page et stopper à un endroit voulu.</p></li>
 </ul>
 
